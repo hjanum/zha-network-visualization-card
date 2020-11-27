@@ -9,7 +9,7 @@ This card can help you identify weak points like bad links between your devices.
 # Installation Instructions
 
 1. Put the [zha-network-visualization-card.js](https://github.com/dmulcahey/zha-network-visualization-card) lovelace card into the `\[config\]/www/zha-network-visualization-card directory` ether by copying it there or by using the file editor to create it with a cut and paste of the content.
-2. Add the lovelace resource with `Configuration ¦ Lovelace Dashboards ¦ Resources ¦ ⊕ ¦ /local/zha-network-visualization-card/zha-network-visualization-card.js` & `Resource Type JavaScript Module ¦ Click Update`.
+2. Add the lovelace resource with `Configuration ¦ Lovelace Dashboards ¦ Resources ¦ ⊕ ¦ /local/zha-network-visualization-card/zha-network-visualization-card.js` & `Resource Type JavaScript Module ¦ Click CREATE`.
 3. Add custom card (works best in panel mode) through `Overview ¦ ⋮ ¦ Edit Dashboard ¦ Add Card + ¦ Choose Manual` A a card configuration window will open. This is where you will add type: `'custom:zha-network-visualization-card' ¦ Click Save` to exit UI configurator
 
 The new map card should appear in the Main Overview window.
